@@ -1,0 +1,24 @@
+{
+  "npmScope": "testXplat",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "web-name": {
+      "tags": []
+    },
+    "web-name-e2e": {
+      "tags": []
+    }
+  }
+}

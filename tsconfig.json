@@ -1,0 +1,50 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5",
+    "module": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@testXplat/*": [
+        "libs/*"
+      ],
+      "@testXplat/ionic": [
+        "xplat/ionic/index.ts"
+      ],
+      "@testXplat/ionic/*": [
+        "xplat/ionic/*"
+      ],
+      "@testXplat/nest": [
+        "xplat/nest/index.ts"
+      ],
+      "@testXplat/nest/*": [
+        "xplat/nest/*"
+      ],
+      "@testXplat/web": [
+        "xplat/web/index.ts"
+      ],
+      "@testXplat/web/*": [
+        "xplat/web/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}
